@@ -1,0 +1,21 @@
+测验
+2019年9月24日08:44:07
+参与人:仝依毅
+
+1.    用id获取：getElementById()
+      用标签名获取：getElementsByTagName()
+      用选择器获取：querySelectorAll()   querySelector()
+      用类名获取：getElementsByClassName()
+      
+2. var div = document.getElementsByTagName('div');
+   console.log(div[3]);
+
+3. querySelector()只能找到第一个元素  querySelectorAll()可以全部找到。
+
+4.var div = document.getElementsByTagName('div');
+  div.innerHTML = '<a href="#">去百度</a>';
+
+
+
+5. var div = document.getElementsByTagName('div');
+   div.className = 'box blue'
